@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMG</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="anh/logo.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+.material-icons {vertical-align:-14%}
+</style>
+
+<!-- slideshow -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="line"><a href="https://daotaodaihoc.humg.edu.vn/#/home" target="_blank" ><i style="font-size:25px; padding-left:30px;line-height: 40px;" class="fa fa-home"> Trang chủ</i></a></div>
+
+    <div class="logo">
+        <img src="anh/logo-top.png" alt="">
+        <div class="linelogo">
+        </div>
+    </div>
+<nav>
+    <!-- tìm kiếm -->
+    <div class="search">
+        <img src="anh/flag.png" alt="">
+        <input style="border: 2px outset black;" type="search" placeholder="Tìm kiếm...">
+        <button style="-webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;">Tìm kiếm</button>
+    </div>
+</nav>
+
+<nav>
+    <!-- menu -->
+    <div class="w3-container">    
+        <div class="w3-bar w3-blue">
+          <a href="#" class="w3-bar-item w3-button">Trang chủ</a>
+          <a href="#" class="w3-bar-item w3-button">Tuyển sinh</a>
+          <a href="#" class="w3-bar-item w3-button">Thông tin</a>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">Cá nhân</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button">Đăng ký môn học</a>
+              <a href="#" class="w3-bar-item w3-button">Thời khóa biểu</a>
+              <a href="#" class="w3-bar-item w3-button">Học phí</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <article>
+        <div>
+            <!-- chữ tin tức -->
+            <h4 class="linearticle">Tin Tức</h4>           
+                 <!--logo đăng nhập  -->
+                <nav class="logologin">
+                <div style="float:right;padding-top: 0px;" class="w3-padding w3-large">
+                    <i class="material-icons">person</i>
+                    Đăng nhập
+                  </div>
+                </nav>
+        </div>
+
+    </article>
+
+
+<!-- <h2 class="w3-center">Manual Slideshow</h2> -->
+
+<div style="margin-top:47px ;margin-left: 0px;" class="w3-content w3-display-container w3-center">
+  <img class="mySlides" src="anh/b1.jpg" style="width:100%">
+  <img class="mySlides" src="anh/b2.jpg" style="width:100%">
+  <img class="mySlides" src="anh/b3.jpg" style="width:100%">
+  <img class="mySlides" src="anh/b4.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<div class="tkmk">
+    <div class="accountlogin">
+        <div class="w3-padding w3-large">
+            <i class="material-icons">person</i> <input type="text" placeholder="Username" required> <br>
+            <i class="material-icons">lock</i> <input type="password" placeholder="Password" required> <br>
+            <button style="font-size:small;float: right; margin-top: 5px;">Đăng nhập</button>
+            </div>
+        </div>
+</div>
+
+
+
+    
+
+
+
+    
+</div>    
+</body>
+</html>

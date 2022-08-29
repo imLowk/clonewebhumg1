@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.line{
+    background-color: rgb(102, 151, 242);
+    width: 100%;
+    height: 40px;
+}
+.line i{
+    color: aliceblue;
+}
+.logo img{
+    padding-left: 1px;
+    padding-top: 1px;
+    width: 20%;
+}
+.logo .linelogo{
+    background-color: rgb(126, 187, 222);
+    width:80% ;
+    height: 30px;
+    float: right;
+}
+nav .search{
+    float: right;
+    padding-right: 10px;
+    margin-top: -70px;
+    line-height: -70px;
+}
+nav .w3-container .w3-bar{
+    width:105% ;
+    margin-left: -20px;
+}
+.linearticle{
+    background-color: rgb(120, 170, 233);
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    
+}
+article .login{
+    float: right;
+    padding-right:20px ;
+    margin-top: -40px;
+}
+.logologin{
+    margin-top: -47px;
+    margin-right: 20px ;
+}
+.tkmk .accountlogin input{
+    font-size: small;
+}
+.tkmk .accountlogin{
+    float: right;
+    margin-top: -290px;
+}
